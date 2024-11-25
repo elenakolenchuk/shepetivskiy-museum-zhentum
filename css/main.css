@@ -1,0 +1,752 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Marck+Script&family=Montserrat+Alternates:wght@300;500;600;700&family=Pacifico&family=Philosopher:wght@400;700&family=Rubik+Doodle+Shadow&display=swap");
+/* 
+font-family: 'Comfortaa', sans-serif;
+font-family: 'Marck Script', cursive;
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Philosopher', sans-serif;
+font-family: 'Rubik Doodle Shadow', system-ui;
+ */
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+body {
+  font-family: "Comfortaa", sans-serif;
+  color: #6d2006;
+
+  /* font-family: 'Rubik Doodle Shadow', system-ui; */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  overflow: hidden;
+}
+
+.header {
+  background-color: rgb(255 255 255);
+  -webkit-filter: drop-shadow(5px 5px 5px rgba(128, 128, 128, 0.4));
+  filter: drop-shadow(5px 5px 5px rgba(128, 128, 128, 0.4));
+}
+
+.header__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+  padding: 15px 0;
+}
+
+.header__logo {
+  width: 100%;
+}
+
+.header__logo-inner {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.header__logo-inner div img {
+  width: 150px;
+  height: 150px;
+}
+
+/* .header__logo-inner::after,
+.header__logo-inner::before {
+  content: "";
+  position: absolute;
+  width: 500px;
+  height: 2px;
+  background-color: grey;
+  opacity: 50%;
+  top: 50%;
+  border-radius: 200%;
+}
+
+.header__logo-inner::after {
+  right: 750px;
+}
+
+.header__logo-inner::before {
+  left: 750px;
+} */
+
+.header__logo img {
+  width: 100%;
+  height: 100%;
+  -webkit-filter: drop-shadow(5px 5px 5px rgba(128, 128, 128, 1));
+  filter: drop-shadow(5px 5px 5px rgba(128, 128, 128, 1));
+}
+
+.header__btns .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.header__btns .navbar .nav-link {
+  font-family: "Rubik Doodle Shadow", system-ui;
+  font-weight: 700;
+  font-size: 26px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 70px;
+  color: #00b7ad;
+  gap: 26px;
+
+}
+
+.nav-link::before {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 1px;
+  background-color: grey;
+  z-index: 5;
+  bottom: 5px;
+  left: 0;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.nav-link:hover::before {
+  width: 100%;
+}
+
+/* ................................................................. */
+/*                         BANNER                                    */
+/* ................................................................. */
+.banner {
+  margin-bottom: 15px;
+  background-color: #16f3e724;
+  padding-bottom: 50px;
+}
+
+.banner__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: "Philosopher", sans-serif;
+  font-size: 60px;
+  color: #882707;
+  -webkit-filter: drop-shadow(5px 5px 5px rgba(128, 128, 128, 0.4));
+  filter: drop-shadow(5px 5px 5px rgba(128, 128, 128, 0.4));
+
+
+  font-weight: bold;
+  margin-top: 75px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.baner__inner-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+}
+
+.banner__foto {
+  width: 50%;
+  -webkit-filter: drop-shadow(5px 5px 5px rgba(128, 128, 128, 0.4));
+  filter: drop-shadow(5px 5px 5px rgba(128, 128, 128, 0.4));
+  margin-bottom: 15px;
+}
+
+.banner__foto div {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.banner__foto img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+}
+
+.banner__text {
+  width: 50%;
+  border-radius: 20px;
+  padding: 30px 30px 45px 30px;
+
+}
+
+.banner__text-title {
+  margin-bottom: 30px;
+  font-size: 32px;
+  font-weight: 700;
+  -webkit-filter: drop-shadow(5px 5px 5px rgba(128, 128, 128, 0.4));
+  filter: drop-shadow(5px 5px 5px rgba(128, 128, 128, 0.4));
+}
+
+.banner__text-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-size: 20px;
+  gap: 14px;
+  padding-bottom: 15px;
+  font-weight: 700;
+  -webkit-filter: drop-shadow(5px 5px 5px rgba(128, 128, 128, 0.4));
+  filter: drop-shadow(5px 5px 5px rgba(128, 128, 128, 0.4));
+}
+
+.banner__text-main span {
+  font-weight: 700;
+}
+
+/* ..................................................................................... */
+/*                                     gallery                                           */
+/* ..................................................................................... */
+.sections__inner {
+  padding: 70px 0 90px 20px;
+}
+
+.sections__tittle {
+  font-family: "Philosopher", sans-serif;
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 70px;
+  -webkit-filter: drop-shadow(5px 5px 5px rgba(128, 128, 128, 0.4));
+  filter: drop-shadow(5px 5px 5px rgba(128, 128, 128, 0.4));
+
+}
+
+.sections__tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sections-tab__nav {
+  width: 55%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 25px;
+  font-size: 30px;
+  font-weight: 700;
+  -webkit-filter: drop-shadow(5px 5px 5px rgba(128, 128, 128, 0.4));
+  filter: drop-shadow(5px 5px 5px rgba(128, 128, 128, 0.4));
+  border-right: 12px solid #16f3e724;
+  ;
+}
+
+.sections-tab__contents {
+  width: 100%;
+  font-weight: 600;
+  font-size: 16px;
+  overflow: hidden;
+  height: 800px;
+  padding: 30px 45px;
+  -webkit-filter: drop-shadow(5px 5px 5px rgba(128, 128, 128, 0.4));
+  filter: drop-shadow(5px 5px 5px rgba(128, 128, 128, 0.4));
+}
+
+.sections-tab__content {
+  display: none;
+  height: 800px;
+}
+
+.sections-tab__content.active {
+  display: block;
+
+}
+
+.sections-img {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border-radius: 20px;
+  width: 520px;
+  height: 735px;
+}
+
+.sections-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.sections-tab__title {
+  border-bottom: 5px solid transparent;
+}
+
+.sections-tab__title.active span {
+  border-bottom: 5px solid
+}
+
+/* ..................................................................................... */
+/*                                     HISTORY                                           */
+/* ..................................................................................... */
+.history {
+  padding-top: 30px;
+  background-color: #16f3e724;
+}
+
+.history__inner {
+  border-radius: 20px;
+  /* background-color: #e7e7e7; */
+  background-color: transparent;
+  padding: 70px 54px;
+  -webkit-filter: drop-shadow(5px 5px 5px rgba(128, 128, 128, 0.4));
+  filter: drop-shadow(5px 5px 5px rgba(128, 128, 128, 0.4));
+  margin-bottom: 30px;
+}
+
+.history__tittle {
+  font-family: "Philosopher", sans-serif;
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+.history__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 20px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+/* ..................................................................................... */
+/*                                     exhibits                                        */
+/* ..................................................................................... */
+
+.exhibits__inner {
+  padding-top: 100px;
+  margin-bottom: 10px;
+}
+
+.exhibits__tittle {
+  font-family: "Philosopher", sans-serif;
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 20px;
+  -webkit-filter: drop-shadow(5px 5px 5px rgba(128, 128, 128, 0.4));
+  filter: drop-shadow(5px 5px 5px rgba(128, 128, 128, 0.4));
+}
+
+/* .swiper {
+  height: 890px;
+} */
+
+.swiper-horizontal>.swiper-scrollbar,
+.swiper-scrollbar.swiper-scrollbar-horizontal {
+  display: none;
+}
+
+.swiper-pagination-bullet {
+  width: 14px;
+  height: 14px;
+
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #431404;
+  opacity: 70%;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 10px;
+}
+
+.swiper-button-next {
+  color: rgba(109, 109, 109, 0.521)
+}
+
+.swiper-button-prev {
+  right: var(--swiper-navigation-sides-offset, 0px);
+  color: rgba(109, 109, 109, 0.521);
+  font-size: 2px;
+}
+
+.swiper-slide {
+  padding: 40px 70px;
+  overflow: hidden;
+
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 40px;
+}
+
+
+.slide__img {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+
+}
+
+.slide__img img {
+  display: block;
+  width: 720px;
+  height: 735px;
+  border-radius: 20px;
+}
+
+.slide__text {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  -webkit-filter: drop-shadow(5px 5px 5px rgba(128, 128, 128, 0.4));
+  filter: drop-shadow(5px 5px 5px rgba(128, 128, 128, 0.4));
+
+}
+
+
+
+/* ..................................................................................... */
+/*                                     contest                                        */
+/* ..................................................................................... */
+.contest {
+  background-color: #16f3e724
+}
+
+.contest__inner {
+  padding-top: 130px;
+}
+
+.contest__tittle {
+  font-family: "Philosopher", sans-serif;
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 50px;
+  -webkit-filter: drop-shadow(5px 5px 5px rgba(128, 128, 128, 0.4));
+  filter: drop-shadow(5px 5px 5px rgba(128, 128, 128, 0.4));
+}
+
+.tab__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  gap: 20px;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 14px;
+  -webkit-filter: drop-shadow(5px 5px 5px rgba(128, 128, 128, 0.4));
+  filter: drop-shadow(5px 5px 5px rgba(128, 128, 128, 0.4));
+}
+
+.tab__contents {
+  font-weight: 600;
+  font-size: 18px;
+  overflow: hidden;
+  height: 300px;
+  padding: 30px 45px;
+  -webkit-filter: drop-shadow(5px 5px 5px rgba(128, 128, 128, 0.4));
+  filter: drop-shadow(5px 5px 5px rgba(128, 128, 128, 0.4));
+}
+
+.tab__content {
+  display: none;
+  height: 300px;
+}
+
+.tab__content.active {
+  display: block;
+}
+
+.tab__title {
+  text-align: center;
+  border-bottom: 5px solid transparent
+}
+
+.tab__title.active {
+  text-align: center;
+  border-bottom: 5px solid
+}
+
+.contest__links-main {
+  margin-bottom: 80px;
+  font-weight: 600;
+  font-size: 18px;
+  -webkit-filter: drop-shadow(5px 5px 5px rgba(128, 128, 128, 0.4));
+  filter: drop-shadow(5px 5px 5px rgba(128, 128, 128, 0.4));
+
+
+}
+
+.contest__links-main a {
+  display: block;
+  text-decoration: none;
+  color: #6d2006;
+}
+
+.contest__links-main a span:hover {
+  border-bottom: 1px solid
+}
+
+.contest__links-main>span {
+  font-size: 26px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+
+/* ..................................................................................... */
+/*                                     events                                           */
+/* ..................................................................................... */
+
+.events__inner {
+  padding: 70px 54px;
+}
+
+.events__tittle {
+  font-family: "Philosopher", sans-serif;
+  font-size: 48px;
+  margin-bottom: 30px;
+  text-align: center;
+  -webkit-filter: drop-shadow(5px 5px 5px rgba(128, 128, 128, 0.4));
+  filter: drop-shadow(5px 5px 5px rgba(128, 128, 128, 0.4));
+}
+
+.events__items {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  gap: 20px;
+  -webkit-filter: drop-shadow(5px 5px 5px rgba(128, 128, 128, 0.4));
+  filter: drop-shadow(5px 5px 5px rgba(128, 128, 128, 0.4));
+}
+
+.events__item {
+  width: 48%;
+  padding: 40px 30px;
+  margin-bottom: 14px;
+  border-radius: 20px;
+  background-color: #e7e7e7;
+
+}
+
+.events__item-img div {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.events__item-img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+}
+
+.events__item-tittle {
+  margin: 15px 0;
+  font-size: 30px;
+  font-weight: 700;
+  -webkit-filter: drop-shadow(5px 5px 5px rgba(128, 128, 128, 0.4));
+  filter: drop-shadow(5px 5px 5px rgba(128, 128, 128, 0.4));
+}
+
+.events__item-text {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 15px;
+  -webkit-filter: drop-shadow(5px 5px 5px rgba(128, 128, 128, 0.4));
+  filter: drop-shadow(5px 5px 5px rgba(128, 128, 128, 0.4));
+}
+
+.events__item-data {
+  font-size: 16px;
+  text-align: end;
+}
+
+
+/* ..................................................................................... */
+/*                                     footer                                        */
+/* ..................................................................................... */
+
+.footer {
+  background-color: #16f3e724;
+  padding: 50px 0;
+}
+
+.footer__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 70px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.footer__inner-title {
+  font-family: "Philosopher", sans-serif;
+  font-size: 30px;
+  color: #882707;
+  -webkit-filter: drop-shadow(5px 5px 5px rgba(128, 128, 128, 0.4));
+  filter: drop-shadow(5px 5px 5px rgba(128, 128, 128, 0.4));
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.footer__inner-text {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 15px;
+  -webkit-filter: drop-shadow(5px 5px 5px rgba(128, 128, 128, 0.4));
+  filter: drop-shadow(5px 5px 5px rgba(128, 128, 128, 0.4));
+}
+
+.footer__inner-text span {
+  display: block;
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.footer svg {
+  width: 30px;
+  height: 30px;
+  margin-right: 16px;
+  fill: #882707;
+}
+
+
+.footer__contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 20px;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 15px;
+  -webkit-filter: drop-shadow(5px 5px 5px rgba(128, 128, 128, 0.4));
+  filter: drop-shadow(5px 5px 5px rgba(128, 128, 128, 0.4));
+}
+
+.footer__contacts div span {
+  display: block;
+  font-size: 16px;
+}
+
+.footer__contacts>div {
+  display: flex;
+  align-items: center
+}

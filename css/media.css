@@ -1,0 +1,322 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@media (max-width: 986px) {
+
+    .sections__tittle,
+    .history__tittle,
+    .exhibits__tittle,
+    .events__tittle,
+    .contest__tittle {
+        font-size: 35px;
+
+    }
+
+    .header__logo-inner div img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .header__btns .navbar .nav-link {
+        font-size: 18px;
+    }
+
+    .banner__title {
+        font-size: 35px;
+    }
+
+    .baner__inner-items {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .banner__foto {
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+
+    .banner__foto div {
+        width: 70%;
+        padding-bottom: 70%;
+    }
+
+    .banner__text {
+        width: 100%;
+
+    }
+
+    .banner__text-title {
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .banner__text-main {
+        font-size: 16px;
+    }
+
+    .sections__inner {
+        padding: 20px 0px 30px 0px;
+    }
+
+    .sections__tittle {
+        margin-bottom: 10px;
+    }
+
+    .sections-tab__nav {
+        font-size: 18px;
+        padding-right: 10px;
+        border-right: 2px solid #16f3e724;
+    }
+
+    .sections-tab__title.active span {
+        border-bottom: 2px solid;
+    }
+
+    .sections-img {
+        width: 320px;
+        height: 535px;
+    }
+
+    .sections-tab__contents {
+        height: 565px;
+    }
+
+    .history__main {
+        font-size: 14px;
+    }
+
+    .slide__img img {
+        width: 520px;
+        height: 535px;
+    }
+
+    .swiper-button-prev::after,
+    .swiper-button-next::after {
+        font-size: 20px;
+    }
+
+    .slide__text {
+        font-size: 16px;
+    }
+
+    .swiper-pagination-bullet {
+        width: 7px;
+        height: 7px;
+    }
+
+    .tab__title {
+        font-size: 20px;
+        border-bottom: 2px solid transparent;
+    }
+
+    .tab__title.active {
+        border-bottom: 2px solid
+    }
+
+    .tab__contents {
+        font-size: 14px;
+    }
+
+    .events__item {
+        padding: 20px;
+    }
+
+    .events__item-tittle {
+        font-size: 22px;
+    }
+
+    .events__item-text,
+    .events__item-data {
+        font-size: 14px;
+    }
+
+    .footer__inner-title {
+        font-size: 20px;
+    }
+
+    .footer__inner-text,
+    .footer__inner-text span {
+        font-size: 14px;
+    }
+
+    .footer svg {
+        width: 15px;
+        height: 15px;
+    }
+
+    .footer__contacts {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 650px) {
+    .header__btns .navbar {
+        gap: 6px;
+    }
+
+    .header__btns .navbar .nav-link {
+        font-size: 13px;
+        height: 30px;
+    }
+
+    .banner {
+        padding-bottom: 0;
+    }
+
+    .banner__text {
+        padding: 10px;
+    }
+
+    .banner__title {
+        font-size: 22px;
+    }
+
+    .banner__text-title {
+        font-size: 16px;
+    }
+
+    .banner__text-main {
+        font-size: 12px;
+    }
+
+    .sections__tittle,
+    .history__tittle,
+    .exhibits__tittle,
+    .events__tittle,
+    .contest__tittle {
+        font-size: 24px;
+    }
+
+    .sections-tab__nav {
+        font-size: 12px;
+    }
+
+    .sections-img {
+        width: 200px;
+        height: 285px;
+    }
+
+    .sections-tab__contents {
+        height: 300px;
+    }
+
+    .sections-tab__contents {
+        padding: 6px;
+    }
+
+    .sections-tab__nav {
+        gap: 10px;
+    }
+
+    .history__inner {
+        padding: 10px;
+    }
+
+    .history__main {
+        font-size: 12px;
+    }
+
+    .exhibits__inner {
+        padding-top: 50px;
+    }
+
+    .slide__img img {
+        width: 200px;
+        height: 285px;
+    }
+
+    .swiper-button-prev::after,
+    .swiper-button-next::after {
+        font-size: 10px;
+    }
+
+    .slide__text {
+        font-size: 14px;
+    }
+
+    .swiper-pagination-bullet {
+        width: 7px;
+        height: 7px;
+    }
+
+    .swiper-slide {
+        padding: 25px 35px;
+    }
+
+    .tab__title {
+        font-size: 14px;
+    }
+
+    .tab__contents {
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+
+    .events__inner {
+        padding: 10px;
+        margin-top: 30px;
+    }
+
+    .events__item {
+        width: 100%;
+    }
+
+    .events__item-tittle {
+        font-size: 16px;
+    }
+
+    .events__item-text,
+    .events__item-data {
+        font-size: 12px;
+    }
+
+    .footer__inner {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        gap: 0px;
+
+    }
+    .footer__contacts{
+        margin-top: 10px;
+        width: 100%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: start;
+                flex-direction: start;
+        gap: 10px;
+    }
+
+    .footer__inner-title {
+        font-size: 16px;
+    }
+
+    .footer__inner-text,
+    .footer__inner-text span {
+        font-size: 12px;
+    }
+
+    .footer svg {
+        width: 12px;
+        height: 12px;
+    }
+
+    .footer__contacts {
+        font-size: 12px;
+    }
+}
